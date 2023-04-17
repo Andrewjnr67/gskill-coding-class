@@ -1,0 +1,77 @@
+.navbar-dark .nav-item .nav-link {
+    color: #fff;
+  }
+  
+.navbar-dark .nav-item .nav-link:hover {
+    background-color: rgba(134, 156, 156, 0);
+    transition: all 0.3s ease;
+    border-radius: 0.25rem;
+    color: #fff;
+    
+  }
+  
+.fa-li {
+    position: relative;
+    left: 0;
+  }
+
+.navbar{
+    background-color: rgb(0, 140, 255);
+   
+    
+
+
+}
+
+.collapse navbar-collapse{
+  float: right;
+  align-content:flex-end;
+  
+}
+.nav-2{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bgimage{
+  background-image: url('../images/image3.webp');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+  
+}
+.card img{
+  height: 200px;
+}
+
+
+
+.subscription{
+  padding: 10px 0;
+}
+
+footer{
+  background-color:  rgb(0, 140, 255);
+  height: 400px;
+  
+  
+ 
+}
+
+.section-three.title{
+  align-content: center;
+ 
+}
+
+.subscription-wrapper{
+  background-color: burlywood;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.btn {
+  background-color: greenyellow;
+}

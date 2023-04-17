@@ -1,0 +1,409 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class= "container">
+    <div class= "bgimage mt-4">
+
+    </div>
+    <section style="background-color: #eee;">
+        <div class="text-center container py-5">
+          <h4 class="mt-4 mb-5"><strong>Bestsellers</strong></h4>
+      
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                  data-mdb-ripple-color="light">
+                  <img src="{% static 'images/iphone2.jpg'%}"
+
+                  <a href="#!">
+                    <div class="mask">
+                      <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5><span class="badge bg-primary ms-2">New</span></h5>
+                      </div>
+                    </div>
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="" class="text-reset">
+                    <h5 class="card-title mb-3">iphone x</h5>
+                  </a>
+                  <a href="" class="text-reset">
+                    <p>Category</p>
+                  </a>
+                  <h6 class="mb-3">N61.99</h6>
+                  <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                  data-mdb-ripple-color="light">
+                  <img src="{% static 'images/iphone1.jpg'%}"
+                  <a href="#!">
+                    <div class="mask">
+                      <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5><span class="badge bg-success ms-2">Eco</span></h5>
+                      </div>
+                    </div>
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="" class="text-reset">
+                    <h5 class="card-title mb-3">iphone 13</h5>
+                  </a>
+                  <a href="" class="text-reset">
+                    <p>Category</p>
+                  </a>
+                  <h6 class="mb-3">N61.99</h6>
+                  <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                    <img src="{% static 'images/iphone8.jpg'%}"
+                  <a href="#!">
+                    <div class="mask">
+                      <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5><span class="badge bg-danger ms-2">-10%</span></h5>
+                      </div>
+                    </div>
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="" class="text-reset">
+                    <h5 class="card-title mb-3">iphone xr</h5>
+                  </a>
+                  <a href="" class="text-reset">
+                    <p>Category</p>
+                  </a>
+                  <h6 class="mb-3">
+                    <s>N100.99</s><strong class="ms-2 text-danger">N90.99</strong>
+                  </h6>
+                  <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                  <img src="{% static 'images/iphone6.jpg'%}"
+                    class="w-100" />
+                  <a href="#!">
+                    <div class="mask">
+                      <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5>
+                          <span class="badge bg-success ms-2">Eco</span><span
+                            class="badge bg-danger ms-2">-10%</span>
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="" class="text-reset">
+                    <h5 class="card-title mb-3">iphone 11</h5>
+                  </a>
+                  <a href="" class="text-reset">
+                    <p>Category</p>
+                  </a>
+                  <h6 class="mb-3">
+                    <s>N61.99</s><strong class="ms-2 text-danger">N50.99</strong>
+                  </h6>
+                  <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                  data-mdb-ripple-color="light">
+                  <img src="{% static 'images/iphone4.jpg'%}"
+                  <a href="#!">
+                    <div class="mask">
+                      <div class="d-flex justify-content-start align-items-end h-100"></div>
+                    </div>
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="" class="text-reset">
+                    <h5 class="card-title mb-3">iphone 11 (225gb)</h5>
+                  </a>
+                  <a href="" class="text-reset">
+                    <p>Category</p>
+                  </a>
+                  <h6 class="mb-3">N61.99</h6>
+                  <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                    <img src="{% static 'images/iphone5.jpg'%}"
+                  <a href="#!">
+                    <div class="mask">
+                      <div class="d-flex justify-content-start align-items-end h-100">
+                        <h5>
+                          <span class="badge bg-primary ms-2">New</span><span
+                            class="badge bg-success ms-2">Eco</span><span class="badge bg-danger ms-2">-10%</span>
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="hover-overlay">
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </div>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <a href="" class="text-reset">
+                    <h5 class="card-title mb-3">iphone 11</h5>
+                  </a>
+                  <a href="" class="text-reset">
+                    <p>Category</p>
+                  </a>
+                  <h6 class="mb-3">
+                    <s>N61.99</s><strong class="ms-2 text-danger">N50.99</strong>
+                  </h6>
+                  <button type="button" 
+                class="btn btn-default btn-sm">
+                <span class="glyphicon 
+                    glyphicon-shopping-cart">
+                </span>
+                <b> Add to Cart </b>
+            </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+      
+        <!-- Blog section  starts -->
+      <section class= "mt-4 md-2">
+        <div class="container-fluid">
+          <div class="container">
+              
+              <div class="section-three">
+                  <div  class="title">
+                      <h1><a href="blog.html">Blog News</a></h1>
+                      <p>News, events, stories and recent activities</p>
+                  </div>
+                  <div class="row blog-box">
+                      <div class="col-md-4 box">
+                          <p class="h4">Todays News</p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ut culpa non inventore ducimus cumque illum?
+                              Quasi saepe optio harum veniam illo laboriosam quae laudantium, deleniti libero sint obcaecati enim.
+                          </p>
+                          <a href="" class="btn btn-outliine">Learn More...</a>
+                      </div>
+                      <div class="col-md-4 box">
+                          <p class="h4">Todays News</p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ut culpa non inventore ducimus cumque illum?
+                              Quasi saepe optio harum veniam illo laboriosam quae laudantium, deleniti libero sint obcaecati enim.
+                          </p>
+                          <a href="" class="btn btn-outliine">Learn More...</a>
+                      </div>
+                      <div class="col-md-4 box">
+                          <p class="h4">Todays News</p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ut culpa non inventore ducimus cumque illum?
+                              Quasi saepe optio harum veniam illo laboriosam quae laudantium, deleniti libero sint obcaecati enim.
+                          </p>
+                          <a href="" class="btn btn-outliine">Learn More...</a>
+                      </div>
+                      <div class="col-md-4 box">
+                          <p class="h4">Todays News</p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ut culpa non inventore ducimus cumque illum?
+                              Quasi saepe optio harum veniam illo laboriosam quae laudantium, deleniti libero sint obcaecati enim.
+                          </p>
+                          <a href="" class="btn btn-outliine">Learn More...</a>
+                      </div>
+                      <div class="col-md-4 box">
+                          <p class="h4">Todays News</p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ut culpa non inventore ducimus cumque illum?
+                              Quasi saepe optio harum veniam illo laboriosam quae laudantium, deleniti libero sint obcaecati enim.
+                          </p>
+                          <a href="" class="btn btn-outliine">Learn More...</a>
+                      </div>
+                      <div class="col-md-4 box">
+                          <p class="h4">Todays News</p>
+                          <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, ut culpa non inventore ducimus cumque illum?
+                              Quasi saepe optio harum veniam illo laboriosam quae laudantium, deleniti libero sint obcaecati enim.
+                          </p>
+                          <a href="" class="btn btn-outliine">Learn More...</a>
+                      </div>
+                      
+                      
+  
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+
+<!-- Blog section  ends -->
+     
+        
+      <section class= "mt-2">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 col-xl-8 text-center">
+            <h3 class="mb-4">Testimonials</h3>
+            <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+              numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+              quisquam eum porro a pariatur veniam.
+            </p>
+          </div>
+        </div>
+      
+        <div class="row text-center d-flex align-items-stretch">
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #9d789b;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="{% static 'images/mike.jpg'%}"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Dangote</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+                  consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #7a81a8;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="{% static 'images/otedollar.jpg'%}"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Lisa Cudrow</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+                  repudi mollitia architecto.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-0 d-flex align-items-stretch">
+            <div class="card testimonial-card">
+              <div class="card-up" style="background-color: #6d5b98;"></div>
+              <div class="avatar mx-auto bg-white">
+                <img src="{% static 'images/ab.jpg'%}"
+                  class="rounded-circle img-fluid" />
+              </div>
+              <div class="card-body">
+                <h4 class="mb-4">Tony elumelu</h4>
+                <hr />
+                <p class="dark-grey-text mt-4">
+                  <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
+                  aliquam repellat rem unde ducimus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+     
+      <section class="subscription bg-white mt-5 mb-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="subscription-wrapper">
+                <div class="d-flex subscription-content justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
+                  <h3 class="flex-fill">Subscribe <br> to our newsletter</h3>
+                  <form action="#" class="row flex-fill">
+                    <div class="col-lg-7 my-md-2 my-2">
+                      <input type="email" class="form-control px-4 border-0 w-100 text-center text-md-left" id="email" placeholder="Your Email" name="email">
+                    </div>
+                    <div class="col-lg-5 my-md-2 my-2">
+                      <button type="submit" class="btn btn-primary btn-lg border-0 w-100">Subscribe Now</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    
+
+
+</div>
+     
+{% endblock %}
